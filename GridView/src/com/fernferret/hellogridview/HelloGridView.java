@@ -12,6 +12,6 @@ public class HelloGridView extends Activity {
 		setContentView(R.layout.main);
 		
 		GridView gridview = (GridView) findViewById(R.id.gridview);
-		gridview.setAdapter(new ImageAdapter(this));
+		gridview.setAdapter(new ButtonAdapter(this));
 	}
 }
